@@ -3,7 +3,9 @@ import OpcoesReuniao from "@/components/reuniao/OpcoesReuniao"
 import reunioes from "@/domain/componentsTexts/reunioes"
 
 type Props = {
-   params: { id: string }
+   params: Promise<{ 
+      id: string
+   }>
 }
 
 export default async function page(props: Props){
