@@ -42,7 +42,6 @@ export default function FiltrosListaReunioes(){
 
    useEffect(()=>{
       atualizarReunioesFiltradas()
-      console.log(reunioes[0].data)
    }, [participante, status, data, pesquisaListaReunioes])
 
    return (

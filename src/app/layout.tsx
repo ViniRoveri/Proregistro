@@ -17,17 +17,15 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <section id='layout'>
-          <Navbar/>
+        <Navbar/>
 
-          <main>
-            <InfosUsuario/>
+        <main>
+          <InfosUsuario/>
 
-            {children}
-          </main>
-            
-          <BotaoSuporte/>
-        </section>
+          {children}
+        </main>
+          
+        <BotaoSuporte/>
       </body>
     </html>
   )

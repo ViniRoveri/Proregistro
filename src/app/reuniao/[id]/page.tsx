@@ -14,7 +14,7 @@ export default async function page(props: Props){
    if(!reuniao) return <></>
 
    return (
-      <div style={{display: 'flex', gap: '2rem', height: '100%'}}>
+      <div style={{display: 'flex', gap: '2rem', height: 'calc(100% - 87px)'}}>
          <CardInfosReuniao reuniao={reuniao}/>
 
          <OpcoesReuniao id={idReuniao}/>
