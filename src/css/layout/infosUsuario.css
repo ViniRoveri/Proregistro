@@ -1,0 +1,21 @@
+#infosUsuario {
+   display: flex;
+   gap: 1rem;
+   margin-bottom: 2rem;
+}
+
+#nomesUsuario {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 18px;
+}
+
+#nomesUsuario p:nth-child(1){
+   font-weight: bold;
+}
+
+#nomesUsuario p:nth-child(2){
+   color: var(--cinza);
+   font-size: 14px;
+}

@@ -1,0 +1,41 @@
+#containerFiltrosReunioes{
+   align-items: start;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1rem;
+}
+
+#filtrosListaReunioes {
+   display: flex;
+   gap: 1rem;
+}
+
+#filtrosListaReunioes>button {
+   background-color: var(--cinzaClaro);
+   border: 1px solid var(--cinzaEscuro);
+   border-radius: 16px !important;
+}
+
+#seletorDataReunioes {
+   border: 1px solid var(--cinzaEscuro);
+   border-radius: 8px;
+   margin-top: 4px;
+}
+
+#pesquisaListaReunioes input {
+   background-color: var(--cinzaClaro);
+   border: 1px solid var(--cinzaEscuro);
+   border-radius: 16px;
+   margin-right: .5rem;
+   padding: .2rem .75rem;
+}
+
+#pesquisaListaReunioes button {
+   background-color: var(--corPrincipal);
+   border-radius: 100%;
+   padding: .1rem .33rem;
+}
+
+#pesquisaListaReunioes button i {
+   color: white;
+}

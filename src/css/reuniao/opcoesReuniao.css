@@ -1,0 +1,26 @@
+#opcoesReuniao button {
+   background-color: var(--corPrincipal);
+   border-radius: 8px;
+   font-weight: bold;
+   padding: .3rem 3rem;
+   text-align: center;
+   white-space: nowrap;
+   width: 100%;
+}
+
+#opcoesReuniao button, #opcoesReuniao button * {
+   color: white;
+}
+
+#opcoesReuniao>div {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+   margin-top: 1.5rem;
+}
+
+#opcoesReuniao p {
+   font-weight: bold;
+   width: 100%;
+}

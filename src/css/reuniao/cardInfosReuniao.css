@@ -1,0 +1,66 @@
+#cardInfosReuniao {
+   background-color: white;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   flex-grow: 1;
+   padding: 2rem;
+   width: 100%;
+}
+
+#tituloReuniao {
+   align-items: center;
+   border-bottom: 1px solid var(--cinza);
+   display: flex;
+   font-size: 20px;
+   font-weight: bold;
+   gap: 1rem;
+   padding-bottom: 1.5rem;
+}
+
+#infosReuniao {
+   border-bottom: 1px solid var(--cinza);
+   padding: 1.5rem 0;
+}
+
+#infosReuniao>div {
+   align-items: center;
+   display: flex;
+   gap: 2rem;
+   padding: .2rem 0;
+}
+
+#infosReuniao>div>p:nth-child(1){
+   text-align: end;
+   width: 144px;
+}
+
+#infosReuniao>div>p:nth-child(2){
+   color: var(--cinza);
+   font-size: 12px;
+   font-weight: bold;
+}
+
+#infosPauta {
+   border-bottom: 1px solid var(--cinza);
+}
+
+#infosPauta>p:nth-child(2) {
+   color: var(--cinza);
+   font-weight: bold;
+   margin-top: .75rem;
+}
+
+#infosPauta, #infosParticipantes {
+   padding: 1.5rem 94px;
+}
+
+#infosReuniao>div>p:nth-child(1), #infosPauta>p:nth-child(1), #infosParticipantes>p{
+   font-weight: bold;
+}
+
+#iconesParticipantes {
+   align-items: center;
+   display: flex;
+   gap: 1.5rem;
+   margin-top: .75rem;
+}
